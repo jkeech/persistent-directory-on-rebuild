@@ -1,0 +1,4 @@
+# Ignore all files that users might add into the config directory
+# at runtime via the symlink in the home directory
+config/*
+!config/README.txt
